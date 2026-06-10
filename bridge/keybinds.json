@@ -1,0 +1,79 @@
+{
+  "port": 8787,
+  "target": {
+    "processName": "StarCitizen",
+    "windowTitle": "Star Citizen"
+  },
+  "commands": {
+    "flight_ready": {
+      "label": "Flight ready",
+      "keys": "RALT+R",
+      "description": "Default commonly used Star Citizen all-on flight-ready shortcut."
+    },
+    "power_toggle": {
+      "label": "Power",
+      "keys": "U"
+    },
+    "engines_toggle": {
+      "label": "Engines",
+      "keys": "I"
+    },
+    "shields_toggle": {
+      "label": "Shields",
+      "keys": "O"
+    },
+    "weapons_toggle": {
+      "label": "Weapons",
+      "keys": "P"
+    },
+    "quantum_toggle": {
+      "label": "Quantum drive",
+      "keys": "B"
+    },
+    "quantum_jump": {
+      "label": "Quantum jump",
+      "keys": "B",
+      "holdMs": 1200
+    },
+    "landing_gear_toggle": {
+      "label": "Landing gear",
+      "keys": "N"
+    },
+    "vtol_toggle": {
+      "label": "VTOL",
+      "keys": "K"
+    },
+    "cruise_toggle": {
+      "label": "Cruise control",
+      "keys": "C"
+    },
+    "scan_toggle": {
+      "label": "Scan mode",
+      "keys": "TAB"
+    },
+    "lock_target": {
+      "label": "Lock target",
+      "keys": "T"
+    },
+    "boost_toggle": {
+      "label": "Boost",
+      "keys": "LSHIFT"
+    },
+    "hail_toggle": {
+      "label": "Hail target",
+      "keys": "F11"
+    },
+    "dock_toggle": {
+      "label": "Docking request",
+      "keys": "N"
+    },
+    "comms_toggle": {
+      "label": "Comms",
+      "keys": "F11"
+    },
+    "nav_toggle": {
+      "label": "Navigation",
+      "keys": "F2"
+    }
+  }
+}

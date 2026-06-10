@@ -1,0 +1,38 @@
+:root {
+  --cyan: #21c3ff;
+  --text: #8bd8f5;
+  --text-bright: #d8f8ff;
+  --muted: #6f9eb1;
+  --green: #20ffa9;
+  --orange: #ffb34d;
+  --red: #ff4d5f;
+  --mono: 'Segoe UI Mono', 'Cascadia Mono', Consolas, monospace;
+  --sans: Inter, 'Segoe UI', Arial, sans-serif;
+
+  color: var(--text);
+  background: #02070b;
+  font-family: var(--sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: #02070b;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#root {
+  min-height: 100svh;
+}
